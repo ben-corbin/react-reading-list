@@ -1,3 +1,5 @@
+import {Link} from 'react-router-dom'
+
 function BooksList(props) {
   const { books } = props
 
@@ -8,7 +10,9 @@ function BooksList(props) {
         {books.map(book => {
           return <li className="book" key={book.id}>
             <h3>{book.title}</h3>
-            <p>View</p>
+            <Link to={`/books/${book.id}`} state={{book}}>
+              View
+              </Link>
           </li>
         })}
       </ul>

@@ -10,7 +10,19 @@
       "id": 2,
       "title": "The Last Thing He Told Me",
       "author": "Laura Dave",
-      "genre" : "Thriller"
+      "genre": "Thriller"
+    },
+    {
+      "title": "Ben Made This Book!",
+      "author": "Ben",
+      "genre": "Horror",
+      "id": 3
+    },
+    {
+      "title": "React Is Cool",
+      "author": "Ben",
+      "genre": "Nonfiction",
+      "id": 4
     }
   ]
 }
